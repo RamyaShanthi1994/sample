@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4151" started-at="2020-01-16T10:00:39Z" finished-at="2020-01-16T10:00:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4151" started-at="2020-01-16T10:00:39Z" finished-at="2020-01-16T10:00:43Z">
+      <class name="practice.RemoteDriver">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:practice.RemoteDriver@6cc4c815]" name="openBrowser" duration-ms="4125" started-at="2020-01-16T10:00:39Z" finished-at="2020-01-16T10:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- practice.RemoteDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -20,9 +20,9 @@ public class RemoteDriver {
 		des.setBrowserName("chrome");
 		des.setPlatform(Platform.WINDOWS);
 		
-		WebDriver driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), des);
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ramya\\Desktop\\automation\\chromedriver_win32\\chromedriver.exe");
-//		WebDriver driver=new ChromeDriver();
+// 		WebDriver driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), des);
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ramya\\Desktop\\automation\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.get("http://google.com");
 	}
 

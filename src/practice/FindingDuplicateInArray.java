@@ -10,9 +10,9 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class FindingDuplicateInArray {
-	static ExtentTest test;
+// 	static ExtentTest test;
 
-	static ExtentReports report;
+// 	static ExtentReports report;
 
 	public static void main(String[] args) {
 //		findingDuplicateUsingHash();
@@ -22,8 +22,8 @@ public class FindingDuplicateInArray {
 	
 	public static void findingDuplicateNormal()
 	{
-		report = new ExtentReports(System.getProperty("C:\\Users\\Ramya\\Desktop\\Exercise\\report\\ExtentReportResults.html"));
-		test = report.startTest("ExtentDemo");
+// 		report = new ExtentReports(System.getProperty("C:\\Users\\Ramya\\Desktop\\Exercise\\report\\ExtentReportResults.html"));
+// 		test = report.startTest("ExtentDemo");
 
 		int arr[]= {1,2,3,4,4,5,6,5,7,4,3};
 		for(int i=0;i<arr.length;i++)
@@ -38,7 +38,7 @@ public class FindingDuplicateInArray {
 				}
 			}
 		}
-		endTest();
+// 		endTest();
 	}
 	
 	public static void findingDuplicateUsingHash()
@@ -75,9 +75,9 @@ public class FindingDuplicateInArray {
 
 	{
 
-	report.endTest(test);
+// 	report.endTest(test);
 	
-	report.flush();
+// 	report.flush();
 	
 	}
 

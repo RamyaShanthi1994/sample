@@ -33,7 +33,7 @@ public class FindingDuplicateInArray {
 				if(arr[i]==arr[j])
 				{
 					System.out.println(arr[j]);
-					test.log(LogStatus.PASS, "Navigated to the specified URL");
+// 					test.log(LogStatus.PASS, "Navigated to the specified URL");
 
 				}
 			}

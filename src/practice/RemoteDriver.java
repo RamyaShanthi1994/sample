@@ -1,21 +1,21 @@
 package practice;
 
-// import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.net.MalformedURLException;
-// import java.net.URL;
+import java.net.URL;
 
-// import org.openqa.selenium.Platform;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-// import org.openqa.selenium.remote.DesiredCapabilities;
-// import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 public class RemoteDriver {
 	
-// 	@Test (priority = 1)
-// 	public void openBrowser() throws Exception
-	public static void main(String[] args)
+	@Test (priority = 1)
+	public void openBrowser() throws Exception
+// 	public static void main(String[] args)
 	{
 // 		DesiredCapabilities des=new DesiredCapabilities();
 // 		des.setBrowserName("chrome");

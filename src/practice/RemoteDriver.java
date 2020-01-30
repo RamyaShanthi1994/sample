@@ -13,8 +13,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class RemoteDriver {
 	
-	@Test (priority = 1)
-	public void openBrowser() throws Exception
+// 	@Test (priority = 1)
+// 	public void openBrowser() throws Exception
+	public static void main(String[] args)
 	{
 // 		DesiredCapabilities des=new DesiredCapabilities();
 // 		des.setBrowserName("chrome");
